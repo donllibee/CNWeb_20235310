@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<!-- Website template by freewebsitetemplates.com -->
+<html lang="vi">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Register - Blakletterpress Website Template</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<body>
+	<div id="page">
+		<header id="header">
+			<div id="motto">
+				<a href="index.html" class="sitename"><img src="images/blakletterpress.png" height="24" width="142" alt="Blakletterpress"></a>
+				<p><img src="images/header-text.png" height="14" width="218" alt="Creative community"></p>
+			</div>
+			<div id="logo">
+				<a href="index.html"><img src="images/logo.png" alt="Blakletterpress home"></a>
+			</div>
+			<div id="searchbar">
+				<form action="#" method="get">
+					<input type="search" name="q" placeholder="Enter search query" class="txtfield" aria-label="Search">
+					<input type="submit" value="Search" class="btn">
+				</form>
+			</div>
+		</header>
+		<main id="contents">
+			<section id="main">
+				<article class="body">
+					<h1>Đăng ký thành viên</h1>
+					<p>Vui lòng điền thông tin bên dưới để tạo tài khoản.</p>
+					<form class="register-form" action="#" method="post">
+						<fieldset>
+							<legend>Thông tin cá nhân</legend>
+							<div class="form-group">
+								<label for="full-name">Họ và tên</label>
+								<input id="full-name" name="fullName" type="text" autocomplete="name" required>
+							</div>
+							<div class="form-group">
+								<label for="email">Email</label>
+								<input id="email" name="email" type="email" autocomplete="email" required>
+							</div>
+							<div class="form-group">
+								<label for="phone">Số điện thoại</label>
+								<input id="phone" name="phone" type="tel" autocomplete="tel" pattern="[0-9+(). -]{8,15}" title="Nhập số điện thoại từ 8 đến 15 ký tự" required>
+							</div>
+							<div class="form-group">
+								<label for="birth-date">Ngày sinh</label>
+								<input id="birth-date" name="birthDate" type="date">
+							</div>
+							<div class="choice-group">
+								<span>Giới tính</span><br>
+								<label><input name="gender" type="radio" value="female"> Nữ</label>
+								<label><input name="gender" type="radio" value="male"> Nam</label>
+								<label><input name="gender" type="radio" value="other"> Khác</label>
+							</div>
+							<div class="form-group">
+								<label for="address">Địa chỉ</label>
+								<textarea id="address" name="address" rows="3" autocomplete="street-address"></textarea>
+							</div>
+						</fieldset>
+						<fieldset>
+							<legend>Thông tin tài khoản</legend>
+							<div class="form-group">
+								<label for="username">Tên đăng nhập</label>
+								<input id="username" name="username" type="text" autocomplete="username" minlength="4" required>
+							</div>
+							<div class="form-group">
+								<label for="password">Mật khẩu</label>
+								<input id="password" name="password" type="password" autocomplete="new-password" minlength="8" required>
+							</div>
+							<div class="form-group">
+								<label for="confirm-password">Xác nhận mật khẩu</label>
+								<input id="confirm-password" name="confirmPassword" type="password" autocomplete="new-password" minlength="8" required>
+							</div>
+						</fieldset>
+						<label class="checkbox-label"><input name="terms" type="checkbox" required> Tôi đồng ý với các điều khoản sử dụng.</label>
+						<div class="form-actions">
+							<button type="submit">Đăng ký</button>
+							<button type="reset">Nhập lại</button>
+						</div>
+					</form>
+				</article>
+			</section>
+			<aside id="sidebar">
+				<nav id="navigation" aria-label="Main navigation">
+					<div><ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="about.html">About</a></li>
+						<li><a href="news.html">News</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li class="selected"><a href="register.html">Register</a></li>
+						<li><a href="media.html">Media</a></li>
+					</ul></div>
+				</nav>
+				<div class="section"><div id="connect">
+					<h2>Connect with us:</h2>
+					<a href="https://twitter.com/" class="twitter" aria-label="Twitter"></a>
+					<a href="https://facebook.com/" class="facebook" aria-label="Facebook"></a>
+					<a href="https://plus.google.com/" class="googleplus" aria-label="Google Plus"></a>
+				</div></div>
+				<div class="section"><div id="posts">
+					<h2>Latest updates</h2>
+					<ul>
+						<li><h5>Welcome to our community</h5><p>Meet people who share ideas and inspiration.</p><a href="about.html" class="more">Read more</a></li>
+						<li><h5>Stories and media</h5><p>Explore recent stories from our community.</p><a href="media.html" class="more">View media</a></li>
+					</ul>
+					<a href="news.html" class="btn2">View More</a>
+				</div></div>
+			</aside>
+		</main>
+		<footer id="footer"><div>
+			<ul id="featured">
+				<li><a href="index.html" class="home" aria-label="Home"></a><p>Welcome to our community. Discover stories, people, and ideas that bring us together.</p></li>
+				<li><a href="news.html" class="bell" aria-label="News"></a><p>Read the latest news and updates from our community.</p></li>
+				<li><a href="media.html" class="globe" aria-label="Media"></a><p>Explore moments and activities in our media gallery.</p></li>
+				<li><a href="register.html" class="pencil" aria-label="Register"></a><p>Create an account and become part of the community.</p></li>
+			</ul>
+			<p id="footnote">© Copyright 2011. Company name. All rights reserved.</p>
+		</div></footer>
+	</div>
+</body>
+</html>
