@@ -480,30 +480,31 @@ a.sitename {
 
 /* Registration form */
 .register-form {
-    margin: 20px 0;
+    margin: 0;
 }
 
 .register-form fieldset {
-    border: 1px solid #d6ae6a;
-    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 0 0 5px;
+    padding: 6px 10px 10px;
 }
 
 .register-form legend {
-    color: #7e501c;
-    font-size: 20px;
-    font-weight: bold;
-    padding: 0 10px;
+	color: #333;
+	font-size: 16px;
+	padding: 0 4px;
 }
 
 .form-group {
-    margin-bottom: 16px;
+	margin-bottom: 13px;
 }
 
 .form-group > label {
-    color: #593e0f;
+	color: #525252;
     display: block;
-    font-weight: bold;
-    margin-bottom: 6px;
+	font-size: 12px;
+	font-weight: normal;
+	margin-bottom: 3px;
 }
 
 .form-group input,
@@ -517,34 +518,60 @@ a.sitename {
 }
 
 .form-group textarea {
+	height: 66px;
     resize: vertical;
+	width: 316px;
+}
+
+.form-group input[type="number"] {
+	width: 74px;
+}
+
+.form-group input[type="date"] {
+	width: 155px;
+}
+
+.form-group select {
+	width: 130px;
 }
 
 .choice-group {
-    margin-bottom: 16px;
+	color: #525252;
+	font-size: 12px;
+	margin-bottom: 13px;
+}
+
+.choice-group > span {
+	display: block;
+	margin-bottom: 8px;
 }
 
 .choice-group label {
     display: inline-block;
-    margin-right: 20px;
+	margin-right: 8px;
 }
 
 .checkbox-label {
     display: block;
-    margin: 16px 0;
+	color: #525252;
+	font-size: 12px;
+	margin: 16px 0 8px;
 }
 
 .form-actions button {
-    background-color: #7e501c;
+	background: url(../images/interface.png) no-repeat -178px 0;
     border: 0;
-    color: white;
+	color: #fcfefc;
     cursor: pointer;
-    margin-right: 10px;
-    padding: 10px 20px;
+	font: bold 12px Georgia, "Times New Roman", serif;
+	height: 24px;
+	margin-right: 4px;
+	padding: 0 0 4px;
+	width: 72px;
 }
 
 .form-actions button:hover {
-    background-color: #199209;
+	background-position: -260px 0;
 }
 
 /* Media page */
